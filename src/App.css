@@ -1,0 +1,37 @@
+nav {
+  width: 100vw;
+  background-color: darkcyan;
+  height: 5vw;
+  margin-top: 0;
+  padding-top: 0;
+  color: white;
+  font-size: 26px;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: .5em;
+}
+nav ul li:hover {
+  color: black;
+}
+
+
+h3 {
+  border-style: outset;
+  border-color: darkcyan;
+  border-radius: 1px;
+  padding: 2px;
+}
+
+form {
+  justify-content: center;
+  text-align: center;
+}
